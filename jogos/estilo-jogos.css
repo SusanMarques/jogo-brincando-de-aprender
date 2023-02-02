@@ -1,0 +1,23 @@
+.box{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    background-image: url("../img/fundo.jpg");
+}
+#botaoletraaudio{
+    margin: 25px;
+}
+#botaojogodamemoria{
+    margin: 25px;
+}
+.jogos{
+    display: flex;
+    justify-content: center;
+}
+.botaoplay{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
