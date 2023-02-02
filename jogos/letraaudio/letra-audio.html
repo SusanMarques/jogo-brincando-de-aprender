@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Letra e Áudio</title>
-    <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
     <link rel="stylesheet" href="./estilo-letra-audio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,38 +20,41 @@
         </header>
         
         <main>
-            <script>swal("Pressione uma das letras, de A a Z!")</script>
-            <div id="letter" class="centro"></div>
-            <audio id='a'><source src='./audio/a.mp3' type='audio/mp3'></audio>
-            <audio id='b'><source src='./audio/b.mp3' type='audio/mp3'></audio>
-            <audio id='c'><source src='./audio/c.mp3' type='audio/mp3'></audio>
-            <audio id='d'><source src='./audio/d.mp3' type='audio/mp3'></audio>
-            <audio id='e'><source src='./audio/e.mp3' type='audio/mp3'></audio>
-            <audio id='f'><source src='./audio/f.mp3' type='audio/mp3'></audio>
-            <audio id='g'><source src='./audio/g.mp3' type='audio/mp3'></audio>
-            <audio id='h'><source src='./audio/h.mp3' type='audio/mp3'></audio>
-            <audio id='i'><source src='./audio/i.mp3' type='audio/mp3'></audio>
-            <audio id='j'><source src='./audio/j.mp3' type='audio/mp3'></audio>
-            <audio id='k'><source src='./audio/k.mp3' type='audio/mp3'></audio>
-            <audio id='l'><source src='./audio/l.mp3' type='audio/mp3'></audio>
-            <audio id='m'><source src='./audio/m.mp3' type='audio/mp3'></audio>
-            <audio id='n'><source src='./audio/n.mp3' type='audio/mp3'></audio>
-            <audio id='o'><source src='./audio/o.mp3' type='audio/mp3'></audio>
-            <audio id='p'><source src='./audio/p.mp3' type='audio/mp3'></audio>
-            <audio id='q'><source src='./audio/q.mp3' type='audio/mp3'></audio>
-            <audio id='r'><source src='./audio/r.mp3' type='audio/mp3'></audio>
-            <audio id='s'><source src='./audio/s.mp3' type='audio/mp3'></audio>
-            <audio id='t'><source src='./audio/t.mp3' type='audio/mp3'></audio>
-            <audio id='u'><source src='./audio/u.mp3' type='audio/mp3'></audio>
-            <audio id='v'><source src='./audio/v.mp3' type='audio/mp3'></audio>
-            <audio id='w'><source src='./audio/w.mp3' type='audio/mp3'></audio>
-            <audio id='x'><source src='./audio/x.mp3' type='audio/mp3'></audio>
-            <audio id='y'><source src='./audio/y.mp3' type='audio/mp3'></audio>
-            <audio id='z'><source src='./audio/z.mp3' type='audio/mp3'></audio>
-            <audio id='erro'><source src='./audio/erro.wav' type='audio/wav'></audio>
-      
-          <script type="text/javascript" src="js/app.js"></script>
-      
+            <div class="principal">
+                <script>swal("Pressione uma das letras, de A a Z!")</script>
+                <div id="letter" class="centro"></div>
+                <audio id='a'><source src='./audio/a.mp3' type='audio/mp3'></audio>
+                <audio id='b'><source src='./audio/b.mp3' type='audio/mp3'></audio>
+                <audio id='c'><source src='./audio/c.mp3' type='audio/mp3'></audio>
+                <audio id='d'><source src='./audio/d.mp3' type='audio/mp3'></audio>
+                <audio id='e'><source src='./audio/e.mp3' type='audio/mp3'></audio>
+                <audio id='f'><source src='./audio/f.mp3' type='audio/mp3'></audio>
+                <audio id='g'><source src='./audio/g.mp3' type='audio/mp3'></audio>
+                <audio id='h'><source src='./audio/h.mp3' type='audio/mp3'></audio>
+                <audio id='i'><source src='./audio/i.mp3' type='audio/mp3'></audio>
+                <audio id='j'><source src='./audio/j.mp3' type='audio/mp3'></audio>
+                <audio id='k'><source src='./audio/k.mp3' type='audio/mp3'></audio>
+                <audio id='l'><source src='./audio/l.mp3' type='audio/mp3'></audio>
+                <audio id='m'><source src='./audio/m.mp3' type='audio/mp3'></audio>
+                <audio id='n'><source src='./audio/n.mp3' type='audio/mp3'></audio>
+                <audio id='o'><source src='./audio/o.mp3' type='audio/mp3'></audio>
+                <audio id='p'><source src='./audio/p.mp3' type='audio/mp3'></audio>
+                <audio id='q'><source src='./audio/q.mp3' type='audio/mp3'></audio>
+                <audio id='r'><source src='./audio/r.mp3' type='audio/mp3'></audio>
+                <audio id='s'><source src='./audio/s.mp3' type='audio/mp3'></audio>
+                <audio id='t'><source src='./audio/t.mp3' type='audio/mp3'></audio>
+                <audio id='u'><source src='./audio/u.mp3' type='audio/mp3'></audio>
+                <audio id='v'><source src='./audio/v.mp3' type='audio/mp3'></audio>
+                <audio id='w'><source src='./audio/w.mp3' type='audio/mp3'></audio>
+                <audio id='x'><source src='./audio/x.mp3' type='audio/mp3'></audio>
+                <audio id='y'><source src='./audio/y.mp3' type='audio/mp3'></audio>
+                <audio id='z'><source src='./audio/z.mp3' type='audio/mp3'></audio>
+                <audio id='erro'><source src='./audio/erro.wav' type='audio/wav'></audio>
+        
+            <script type="text/javascript" src="js/app.js"></script>
+        
+            <img id="menina-microfone" src="../../img/menina-microfone.png">
+        </div>
         </main>
 
     </div>
